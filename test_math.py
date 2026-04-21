@@ -1,10 +1,11 @@
 import unittest
-from my_math import factorial, area_of_circle
+from my_math import factorial, abs
 
 # ==========================================
-# Student A Tests for Student B (Safwan)
+# Student A Tests for Student B & C (Safwan)
 # ==========================================
 
+# Test cases for Student B's function (Kayode)
 class TestFactorial(unittest.TestCase):
 
     def test_factorial_typical(self):
@@ -20,18 +21,18 @@ class TestFactorial(unittest.TestCase):
         with self.assertRaises(ValueError):
             factorial(-1)
 
+# Test cases for Student C's function (Jordan)
+class TestAbs(unittest.TestCase):
 
-class TestAreaOfCircle(unittest.TestCase):
+    def test_abs_negative(self):
+        # Typical case - negative number becomes positive
+        self.assertEqual(abs(-5), 5)
 
-    def test_area_typical(self):
-        # Typical case - radius 1, area should be ~3.14159
-        self.assertAlmostEqual(area_of_circle(1), 3.14159, places=4)
+    def test_abs_zero(self):
+        # Edge case - zero should return zero
+        self.assertEqual(abs(0), 0)
 
-    def test_area_zero_radius(self):
-        # Edge case - radius 0 should return 0
-        self.assertAlmostEqual(area_of_circle(0), 0.0, places=4)
-
-    def test_area_negative_radius(self):
-        # Invalid input - negative radius not allowed
-        with self.assertRaises(ValueError):
-            area_of_circle(-5)
+    def test_abs_string_input(self):
+        # Invalid input
+        with self.assertRaises(TypeError):
+            abs("hello")
