@@ -85,4 +85,7 @@ def factorial(n):
     if type(r) not in (int, float):
         raise TypeError("Radius must be a number")
 
+    if r < 0:
+        raise ValueError("Radius cannot be negative")
+
     pass
