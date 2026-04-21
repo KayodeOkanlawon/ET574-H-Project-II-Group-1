@@ -1,5 +1,5 @@
 import unittest
-from my_math import factorial, abs
+from my_math import factorial, abs, floor, perimeter_of_rectangle
 
 # ==========================================
 # Student A Tests for Student B & C (Safwan)
@@ -36,3 +36,9 @@ class TestAbs(unittest.TestCase):
         # Invalid input
         with self.assertRaises(TypeError):
             abs("hello")
+
+# ===============================
+# Student B Tests (Kayode)
+# Testing: Student A and Student C functions
+# ===============================
+
