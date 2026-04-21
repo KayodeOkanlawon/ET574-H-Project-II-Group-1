@@ -98,7 +98,7 @@ def area_of_circle(r):
 
 
 # ===============================
-# Student c Functions (jordan)
+# Student C Functions (Jordan)
 # ===============================
 def abs(x):
     """
