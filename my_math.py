@@ -1,3 +1,7 @@
+# ===============================
+# Student A Functions (Safwan)
+# ===============================
+
 def floor(x):
     """
     Function Name: floor
@@ -47,7 +51,7 @@ def hypotenuse(a, b):
     
     return guess
 
-   # ===============================
+# ===============================
 # Student B Functions (Kayode)
 # ===============================
 
@@ -93,7 +97,7 @@ def area_of_circle(r):
     return area
 
 
-   # ===============================
+# ===============================
 # Student c Functions (jordan)
 # ===============================
 def abs(x):
