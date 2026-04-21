@@ -54,3 +54,5 @@ class TestFloor(unittest.TestCase):
 
 
 class TestPerimeter(unittest.TestCase):
+    def test_perimeter_normal(self):
+        self.assertEqual(perimeter_of_rectangle(5, 3), 16)
