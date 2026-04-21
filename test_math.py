@@ -42,3 +42,4 @@ class TestAbs(unittest.TestCase):
 # Testing: Student A and Student C functions
 # ===============================
 
+class TestFloor(unittest.TestCase):
