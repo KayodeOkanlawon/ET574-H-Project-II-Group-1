@@ -52,4 +52,10 @@ def hypotenuse(a, b):
 # ===============================
 
 def factorial(n):
+    """
+    Function Name: factorial
+    Purpose: Calculates factorial of n
+    Parameters: n (int)
+    Return Value: int
+    """
     pass
