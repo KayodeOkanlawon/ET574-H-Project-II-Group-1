@@ -133,4 +133,4 @@ def perimeter_of_rectangle(l, w):
         raise ValueError("Length and width must be greater than zero")
 
     # Perimeter formula: 2 * (length + width)
-    return 2 * (l + w)
+    return 2 * (l + w) 

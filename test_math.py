@@ -63,3 +63,39 @@ class TestPerimeter(unittest.TestCase):
     def test_perimeter_invalid(self):
         with self.assertRaises(ValueError):
             perimeter_of_rectangle(-2, 3)
+            
+            
+#==========================================
+# Student C Tests for Student A & B (Jordan)
+# ==========================================
+
+# Test cases for Student A's function (Safwan)
+class TestHypotenuse(unittest.TestCase):
+    def test_hypotenuse_typical(self):
+        # Typical case - 3, 4, 5 right triangle
+        self.assertAlmostEqual(hypotenuse(3, 4), 5.0)
+
+    def test_hypotenuse_larger(self):
+        # Typical case - 5, 12, 13 right triangle
+        self.assertAlmostEqual(hypotenuse(5, 12), 13.0)
+
+    def test_hypotenuse_negative(self):
+        # Invalid input - negative side length not allowed
+        with self.assertRaises(ValueError):
+            hypotenuse(-1, 4)
+
+
+# Test cases for Student B's function (Kayode)
+class TestAreaOfCircle(unittest.TestCase):
+    def test_area_typical(self):
+        # Typical case - radius of 5
+        self.assertAlmostEqual(area_of_circle(5), 78.53975)
+
+    def test_area_zero(self):
+        # Edge case - radius of 0 should return 0
+        self.assertAlmostEqual(area_of_circle(0), 0.0)
+
+    def test_area_negative(self):
+        # Invalid input - negative radius not allowed
+        with self.assertRaises(ValueError):
+            area_of_circle(-3)   
