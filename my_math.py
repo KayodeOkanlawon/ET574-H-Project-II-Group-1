@@ -62,4 +62,7 @@ def factorial(n):
     if type(n) is not int:
         raise TypeError("Input must be an integer")
 
+    if n < 0:
+        raise ValueError("Input must be non-negative")
+
     pass
