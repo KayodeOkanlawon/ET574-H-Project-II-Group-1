@@ -2,3 +2,12 @@ ID,TYPE,COMMIT,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED
 1,feature,e786f16,closed,Added 2 math functions,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
 2,test,943c754,closed,Added test cases for student B's math functions,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
 3,test,77967f2,closed,Swapped 2nd test function for another student's function,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
+4,test,a3b1c8c,closed,Added imports for unittest and math functions,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+5,test,76ace08,closed,Created TestFloor class for student A function,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+6,test,5b651fe,closed,Added test_floor_normal to verify floor(3.7) returns 3,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+7,test,6e9a6be,closed,Added test_floor_edge to verify floor(5) returns 5,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+8,test,b3cd39c,closed,Added test_floor_negative to verify floor(-3.2) returns -4,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+9,test,ba77bcb,closed,Created TestPerimeter class for student C function,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+10,test,4fdf393,closed,Added test_perimeter_normal to verify perimeter_of_rectangle(5,3) returns 16,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+11,test,6f02750,closed,Added test_perimeter_edge to verify perimeter_of_rectangle(1,1) returns 4,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+12,test,f256497,closed,Added test_perimeter_invalid to verify negative input raises ValueError,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
