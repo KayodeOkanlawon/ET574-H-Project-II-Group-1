@@ -96,7 +96,7 @@ def area_of_circle(r):
    # ===============================
 # Student c Functions (jordan)
 # ===============================
-   def abs(x):
+def abs(x):
     """
     Function Name: abs
     Purpose: Returns the absolute value of x (its distance from zero), making it non-negative.
@@ -113,7 +113,7 @@ def area_of_circle(r):
     # If x is zero or positive, return as is
     return x
 
-     def perimeter_of_rectangle(l, w):
+ def perimeter_of_rectangle(l, w):
     """
     Function Name: perimeter_of_rectangle
     Purpose: Returns the perimeter of a rectangle given its length and width.
