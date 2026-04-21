@@ -73,8 +73,7 @@ def factorial(n):
         result *= i
 
     return result
-
- def area_of_circle(r):
+def area_of_circle(r):
     """
     Function Name: area_of_circle
     Purpose: Calculates the area of a circle given radius r
@@ -87,5 +86,8 @@ def factorial(n):
 
     if r < 0:
         raise ValueError("Radius cannot be negative")
+
+    pi = 3.14159
+    area = pi * (r ** 2)
 
     pass
