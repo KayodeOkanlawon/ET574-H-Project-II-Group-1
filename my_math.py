@@ -81,4 +81,8 @@ def factorial(n):
     Parameters: r (int or float)
     Return Value: float
     """
+
+    if type(r) not in (int, float):
+        raise TypeError("Radius must be a number")
+
     pass
