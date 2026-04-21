@@ -90,4 +90,4 @@ def area_of_circle(r):
     pi = 3.14159
     area = pi * (r ** 2)
 
-    pass
+    return area
