@@ -51,3 +51,6 @@ class TestFloor(unittest.TestCase):
 
     def test_floor_negative(self):
         self.assertEqual(floor(-3.2), -4)
+
+
+class TestPerimeter(unittest.TestCase):
