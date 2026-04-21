@@ -43,3 +43,5 @@ class TestAbs(unittest.TestCase):
 # ===============================
 
 class TestFloor(unittest.TestCase):
+        def test_floor_normal(self):
+        self.assertEqual(floor(3.7), 3)
