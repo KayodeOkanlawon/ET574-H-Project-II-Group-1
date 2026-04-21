@@ -113,7 +113,7 @@ def abs(x):
     # If x is zero or positive, return as is
     return x
 
- def perimeter_of_rectangle(l, w):
+def perimeter_of_rectangle(l, w):
     """
     Function Name: perimeter_of_rectangle
     Purpose: Returns the perimeter of a rectangle given its length and width.
