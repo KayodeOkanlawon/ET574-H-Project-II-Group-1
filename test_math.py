@@ -59,3 +59,7 @@ class TestPerimeter(unittest.TestCase):
 
     def test_perimeter_edge(self):
         self.assertEqual(perimeter_of_rectangle(1, 1), 4)
+
+    def test_perimeter_invalid(self):
+        with self.assertRaises(ValueError):
+            perimeter_of_rectangle(-2, 3)
