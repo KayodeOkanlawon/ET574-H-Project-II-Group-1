@@ -1,3 +1,4 @@
 ID,TYPE,COMMIT,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED
 1,feature,e786f16,closed,Added 2 math functions,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
 2,test,943c754,closed,Added test cases for student B's math functions,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
+3,test,77967f2,closed,Swapped 2nd test function for another student's function,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
