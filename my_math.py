@@ -65,4 +65,7 @@ def factorial(n):
     if n < 0:
         raise ValueError("Input must be non-negative")
 
+    if n == 0:
+        return 1
+
     pass
