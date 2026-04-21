@@ -91,3 +91,22 @@ def area_of_circle(r):
     area = pi * (r ** 2)
 
     return area
+
+   def abs(x):
+    """
+    Function Name: abs
+    Purpose: Returns the absolute value of x (its distance from zero), making it non-negative.
+    Parameters: x (int or float) - the number to find the absolute value of
+    Return Value: int or float - the non-negative value of x
+    """
+    if type(x) not in (int, float):
+        raise TypeError("Input must be a number")
+
+    # If x is negative, flip the sign
+    if x < 0:
+        return -x
+
+    # If x is zero or positive, return as is
+    return x
+    
+     
