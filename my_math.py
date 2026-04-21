@@ -46,3 +46,10 @@ def hypotenuse(a, b):
         guess = (guess + sum_of_squares / guess) / 2
     
     return guess
+
+   # ===============================
+# Student B Functions (Kayode)
+# ===============================
+
+def factorial(n):
+    pass
