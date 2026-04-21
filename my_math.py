@@ -58,4 +58,8 @@ def factorial(n):
     Parameters: n (int)
     Return Value: int
     """
+
+    if type(n) is not int:
+        raise TypeError("Input must be an integer")
+
     pass
