@@ -92,6 +92,10 @@ def area_of_circle(r):
 
     return area
 
+
+   # ===============================
+# Student c Functions (jordan)
+# ===============================
    def abs(x):
     """
     Function Name: abs
@@ -108,5 +112,21 @@ def area_of_circle(r):
 
     # If x is zero or positive, return as is
     return x
-    
-     
+
+     def perimeter_of_rectangle(l, w):
+    """
+    Function Name: perimeter_of_rectangle
+    Purpose: Returns the perimeter of a rectangle given its length and width.
+    Parameters: l (int or float) - the length of the rectangle
+                w (int or float) - the width of the rectangle
+    Return Value: int or float - the perimeter of the rectangle (2 * (l + w))
+    """
+    if type(l) not in (int, float) or type(w) not in (int, float):
+        raise TypeError("Input must be a number")
+
+    # Length and width must be positive
+    if l <= 0 or w <= 0:
+        raise ValueError("Length and width must be greater than zero")
+
+    # Perimeter formula: 2 * (length + width)
+    return 2 * (l + w)
