@@ -73,3 +73,12 @@ def factorial(n):
         result *= i
 
     return result
+
+ def area_of_circle(r):
+    """
+    Function Name: area_of_circle
+    Purpose: Calculates the area of a circle given radius r
+    Parameters: r (int or float)
+    Return Value: float
+    """
+    pass
