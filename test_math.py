@@ -48,3 +48,6 @@ class TestFloor(unittest.TestCase):
 
     def test_floor_edge(self):
         self.assertEqual(floor(5), 5)
+
+    def test_floor_negative(self):
+        self.assertEqual(floor(-3.2), -4)
