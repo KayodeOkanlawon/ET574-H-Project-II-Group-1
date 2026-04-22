@@ -1,5 +1,5 @@
 import unittest
-from my_math import factorial, abs, floor, perimeter_of_rectangle
+from my_math import factorial, abs, floor, perimeter_of_rectangle, area_of_circle, hypotenuse
 
 # ==========================================
 # Student A Tests for Student B & C (Safwan)
@@ -98,4 +98,7 @@ class TestAreaOfCircle(unittest.TestCase):
     def test_area_negative(self):
         # Invalid input - negative radius not allowed
         with self.assertRaises(ValueError):
-            area_of_circle(-3)   
+            area_of_circle(-3) 
+
+if __name__ == "__main__":
+    unittest.main()  
