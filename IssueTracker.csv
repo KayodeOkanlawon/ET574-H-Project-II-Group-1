@@ -11,3 +11,9 @@ ID,TYPE,COMMIT,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED
 10,test,4fdf393,closed,Added test_perimeter_normal to verify perimeter_of_rectangle(5,3) returns 16,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
 11,test,6f02750,closed,Added test_perimeter_edge to verify perimeter_of_rectangle(1,1) returns 4,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
 12,test,f256497,closed,Added test_perimeter_invalid to verify negative input raises ValueError,Kayode Okanlawon,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
+13,feature,a08b37a,closed,Added abs() function to my_math.py,Jordan,04-24-26,04-21-26,04-21-26
+14,feature,28b3853,closed,Added perimeter_of_rectangle() function to my_math.py,Jordan,04-24-26,04-21-26,04-21-26
+15,fix,e96983c,closed,Small edit - fixed indentation for perimeter_of_rectangle and abs,Jordan,04-24-26,04-21-26,04-21-26
+16,fix,8f598ce,closed,Fixed indentation for 2nd function,Jordan,04-24-26,04-21-26,04-21-26
+17,test,52d30fd,closed,Added test functions as student C for student A and B's code,Jordan,04-24-26,04-21-26,04-21-26
+18,test,20d6e57,closed,Added area_of_circle and hypotenuse imports and called tests,Jordan,04-24-26,04-21-26,04-21-26
