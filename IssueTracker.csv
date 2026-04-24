@@ -24,7 +24,7 @@ ID,TYPE,COMMIT,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED
 23,test,f256497,closed,Added test_perimeter_invalid to verify negative input raises ValueError,,Kayode Okanlawon,04-24-26,04-21-26,04-21-26
 24,feature,a08b37a,closed,Added abs() function to my_math.py,,Jordan,04-24-26,04-21-26,04-21-26
 25,feature,28b3853,closed,Added perimeter_of_rectangle() function to my_math.py,,Jordan,04-24-26,04-21-26,04-21-26
-26,fix,e96983c,closed,Small edit - fixed indentation for perimeter_of_rectangle and abs,Jordan,Jordan,04-24-26,04-21-26,04-21-26
-27,fix,8f598ce,closed,Fixed indentation for 2nd function,Jordan,Jordan,04-24-26,04-21-26,04-21-26
+26,fix,e96983c,closed,Small edit - fixed indentation for perimeter_of_rectangle and abs,,Jordan,04-24-26,04-21-26,04-21-26
+27,fix,8f598ce,closed,Fixed indentation for 2nd function,,Jordan,04-24-26,04-21-26,04-21-26
 28,test,52d30fd,closed,Added test functions as student C for student A and B's code,,Jordan,04-24-26,04-21-26,04-21-26
-29,bug fix and test feature,20d6e57,closed,Added area_of_circle and hypotenuse imports and called tests,Safwan Khaleque,Safwan Khaleque,04-24-26,04-21-26,04-21-26
+29,bug fix and test feature,20d6e57,closed,Added area_of_circle and hypotenuse imports and called tests,,Safwan Khaleque,04-24-26,04-21-26,04-21-26
